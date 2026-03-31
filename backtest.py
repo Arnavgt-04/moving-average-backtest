@@ -60,9 +60,9 @@ for _, row in data.iterrows():
     if row['Position'] == 1:
         # Buy signal: invest all cash into shares
         shares = cash // row['Close']
-        cash = cash % row['Close']
-        # Deduct transaction cost from cash
-        cash = cash - (shares * row['Close'] * TRANSACTION_COST)
+        trade_value = shares * row['Close']
+        cash = cash - trade_value  # pay for shares
+        cash = cash - (trade_value * TRANSACTION_COST)  # pay commission
     elif row['Position'] == -1:
         # Sell signal: liquidate all shares
         proceeds = shares * row['Close']
