@@ -21,7 +21,7 @@ This is one of the most widely studied systematic trading strategies. The hypoth
 | Sharpe Ratio | ~0.74 | ~0.83 |
 | Maximum Drawdown | ~-27% | ~-38% |
 
-**The strategy underperformed buy and hold on both total return and Sharpe ratio.** This is a genuine and expected finding — Ferrari had an exceptionally strong bull run from 2018 to 2024, and a crossover strategy that periodically exits the market will inevitably miss portions of a sustained uptrend.
+**The strategy underperformed buy and hold on both total return and Sharpe ratio.** This was an expected finding as Ferrari had an amazingly bullish run from 2018 to 2024 and the crossover strategy periodically exits the market, inevitably missing portions of the sustained bullish uptrend over the 6-year period.
 
 However, the strategy achieved a smaller maximum drawdown (-27% vs -38%), meaning it offered some downside protection at the cost of significant upside.
 
@@ -80,4 +80,8 @@ python backtest.py
 
 Built as a personal project to develop Python and quantitative finance skills simultaneously. The project directly complements participation in the WorldQuant Brain alpha generation competition, where similar signal generation and backtesting concepts apply.
 
-The choice of Ferrari (RACE) reflects personal interest in Formula 1. RACE is listed on NYSE with clean historical data going back to its 2015 IPO.
+The choice of Ferrari (RACE) reflects personal interest in Formula 1, being a supporter of the constructor in the championship. RACE is listed on NYSE with clean historical data going back to its 2015 IPO, making the data reliable, traceable and clean.
+
+## What I Learned
+
+Throughout the project I learned how to translate my thought out logic into python code blocks while leveraging AI as a learning tool to understand complex python coding concepts and how to mold them to match my intention for the final program. I reinforced my understanding of 'for' loops and operators like iterrows and how to plot complex financial charts.
