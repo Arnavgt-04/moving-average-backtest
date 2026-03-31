@@ -84,4 +84,4 @@ The choice of Ferrari (RACE) reflects personal interest in Formula 1, being a su
 
 ## What I Learned
 
-Throughout the project I learned how to translate my thought out logic into python code blocks while leveraging AI as a learning tool to understand complex python coding concepts and how to mold them to match my intention for the final program. I reinforced my understanding of 'for' loops and operators like iterrows and how to plot complex financial charts.
+Throughout the project I learned how to translate my thought out logic into python code blocks while leveraging AI as a learning tool to understand complex python coding concepts and how to mold them to match my intention for the final program. I reinforced my understanding of for loops, pandas methods like iterrows() and pct_change(), and how to build and interpret financial performance metrics like Sharpe ratio and maximum drawdown.
